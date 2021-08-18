@@ -71,12 +71,12 @@
 - The only difference is when you print an error, the name of the program must be equivalent to your `argv[0]` (see below)
 
 <details>
-<summary>Example of error with `sh`:</summary>
+     <summary>Example of error with sh:</summary>
 <pre>$ echo "qwerty" | /bin/sh<br>/bin/sh: 1: qwerty: not found<br>$ echo "qwerty" | /bin/../bin/sh<br>/bin/../bin/sh: 1: qwerty: not found<br>$</pre>
 </details>
 
 <details>
-<summary>Same error with your program `hsh`:</summary>
+<summary>Same error with your program hsh:</summary>
 <pre>$ echo "qwerty" | ./hsh<br>./hsh: 1: qwerty: not found<br>$ echo "qwerty" | ./././hsh<br>./././hsh: 1: qwerty: not found<br>$</pre>
 </details>
 
