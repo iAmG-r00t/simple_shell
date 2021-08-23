@@ -103,4 +103,3 @@
 ## Authors
 
 - iAmG-r00t 👾
-- Lee Muturi [@derrosilee](https://github.com/derrosilee) 👨‍💻
