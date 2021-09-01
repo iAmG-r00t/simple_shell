@@ -50,7 +50,7 @@ command1 || command2
 .PP
 command2 is executed if and only if command1 returns a non-zero exit status.  The return status of AND and OR lists is the exit status of the last command executed in the list.
 .SH AUTHORS
-Peter Numi && Lee Muturi \- Holberton School Software Engineer Students
+Peter Numi \- Holberton School Software Engineer Students
 .SH VERSIONS
 .B hsh
 V1.0.0
